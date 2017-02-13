@@ -11,5 +11,5 @@ include_directories("${PROJECT_BINARY_DIR}")
 
 # add the executable
 
-add_library(BlackLib BlackCore.cpp BlackGPIO/BlackGPIO.cpp)
+add_library(BlackLib BlackCore.cpp BlackGPIO/BlackGPIO.cpp BlackUART/BlackUART.cpp)
 #target_link_libraries(BlackLib)
